@@ -125,7 +125,8 @@
 						<td>
 		<button type="button" class="btn btn-primary btn-sm">
 		<a style="color:white" href="<?php echo site_url().'lesson-update-view/'.$row->id;?>">Update</a></button>
-		<button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#myModal" >Delete</button>
+		<button type="button" class="btn btn-danger btn-sm"> 
+		<a style="color:white;" href="<?php  echo site_url().'delete-lesson/'.$row->id; ?>">Delete</a></button>
 						</td>
 					  </tr>
 					  <?php
@@ -148,7 +149,7 @@
 		  <div class="modal-content">
 				<div class="modal-header">
 				  <button type="button" class="close" data-dismiss="modal">&times;</button>
-				  <h4 class="modal-title">Create Course</h4>
+				  <h4 class="modal-title">Create Lesson</h4>
 				</div>
 				<div class="modal-body">
 					<form action="<?php echo site_url().'create-lesson';?>" method="post">

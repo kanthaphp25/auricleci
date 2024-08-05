@@ -73,3 +73,4 @@ $route['course-lessons-list/'.'(.+)'] = 'Lessons/course_lessons/$1';
 $route['create-lesson'] = 'Lessons/createLession';
 $route['lesson-update'] = 'Lessons/lesson_update';
 $route['lesson-update-view/'.'(.+)'] = 'Lessons/lesson_update_view/$1';
+$route['delete-lesson/'.'(.+)'] = 'Lessons/deleteLesson/$1';
